@@ -575,4 +575,5 @@ setupAutoRestart();
 process.on('SIGINT', () => {
     saveTasks();
     process.exit(0);
+
 });
